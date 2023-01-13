@@ -17,6 +17,8 @@
     </properties>
 
     <build>
+        <finalName>GUIPlugin</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
