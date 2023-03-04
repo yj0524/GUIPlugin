@@ -66,7 +66,8 @@ public final class GUIPlugin extends JavaPlugin implements Listener {
         Player p = (Player) e.getWhoClicked();
         Inventory inv = e.getClickedInventory();
 
-        // if (!e.getClickedInventory().getType().name().equals("Menu")) return;
+//        if (!e.getClickedInventory().getType().name().equals("Menu")) return;
+//        if (inv.getClass().getName().equals("Menu")) return;
 
         // Grass Click
         if (e.getCurrentItem().getType() == Material.GRASS) {
